@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52733" started-at="2019-04-13T00:11:06Z" finished-at="2019-04-13T00:11:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52733" started-at="2019-04-13T00:11:06Z" finished-at="2019-04-13T00:11:59Z">
+      <class name="com.mycompany.qa.tests.NavigateHomeTest">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="beforeSuit" is-config="true" duration-ms="37" started-at="2019-04-13T00:11:06Z" finished-at="2019-04-13T00:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="setExtent" is-config="true" duration-ms="251" started-at="2019-04-13T00:11:06Z" finished-at="2019-04-13T00:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="beforeMethod" is-config="true" duration-ms="21525" started-at="2019-04-13T00:11:07Z" finished-at="2019-04-13T00:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="navigateHome()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="navigateHome" duration-ms="22881" started-at="2019-04-13T00:11:28Z" finished-at="2019-04-13T00:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHome -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="tearDown" is-config="true" duration-ms="7288" started-at="2019-04-13T00:11:51Z" finished-at="2019-04-13T00:11:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateHome status=SUCCESS method=NavigateHomeTest.navigateHome()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.mycompany.qa.tests.NavigateHomeTest@6950e31]" name="endReport" is-config="true" duration-ms="757" started-at="2019-04-13T00:11:58Z" finished-at="2019-04-13T00:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.mycompany.qa.tests.NavigateHomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
